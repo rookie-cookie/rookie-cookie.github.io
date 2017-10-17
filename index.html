@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 "> <!--for responsive css-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="shortcut icon" href="img/favicon2.ico"><title>Web Developer Portfolio</title>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- animate -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- custom -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- responsive -->
+    <link rel="stylesheet" href="css/responsive.css">
+
+  </head>
+  <body data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <header>
+      <!-- start navigation   -->
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation"> <!--navigation bar is the data-target for the data spy-->
+          <div class="container">
+            <div class="navlinks">
+              <ul class="nav navbar-nav nav-ul">
+                <li class="hidden"><a class="page-scroll" href="#top-page"></a></li>
+                <li class="animated fadeInDown"><a class="page-scroll" href="#about">about</a></li>
+                <li class="animated fadeInDown"><a class="page-scroll" href="#portfolio">portfolio</a></li>
+                <li class="animated fadeInDown"><a class="page-scroll" href="#contact">contact</a></li>
+              </ul>
+            </div>
+
+          </div> <!-- /.container-->
+        </nav>
+      <!--end of navigation-->
+    </header>
+
+    <!-- Intro Section -->
+    <section id="intro" class="intro-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 intro-details">
+            <div class="animated pulse ">
+                <h1>HI, <span class="colored"><strong>I'M JONA</strong></span>!<br>a self-taught web developer <br> who loves <span id="typing" class="colored"></span></h1>
+                  <h5> // welcome to my little place on the internet</h5>
+                <h6><i class="fa fa-map-marker" aria-hidden="true"></i> Columbia, South Carolina</h6>
+                <br>
+                <a class="page-scroll downarrow" href="#about"><i class="fa fa-angle-double-down" aria-hidden="true"></i></a>
+            </div>
+          </div> <!--/col-lg-12-->
+        </div> <!--/row-->
+      </div> <!--/container-->
+    </section> <!--/intro-->
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+     <div class="container">
+       <div class="row">
+
+           <div class="col-sm-6">
+             <div class="about-desc animated fadeIn">
+               <h1>about me</h1>
+               <h5>Hi! I'm a self-taught web developer, aspiring to become a full stack developer</h5>
+               <h5>I am currently learning through the help of <a href="https://www.freecodecamp.org" target="_blank"><strong>Free Code Camp</strong></a> and <a href="https://www.udemy.com/the-web-developer-bootcamp/" target="_blank"><strong>Udemy</strong></a>. Aside from coding, I am also interested in graphic and visual design</h5>
+               <h5>I'm actively looking for any web development opportunities that will allow me to develop my coding and design skills. I'm always seeking to learn new skills and play with new web technologies </h5>
+               <h5>I am specially interested in working for local artists, businesses, startups and creative/marketing agencies.</h5>
+            </div>
+            <div class="social-icons">
+              <a href="https://github.com/rookie-cookie" target="blank"><i class="fa fa-github animated fadeInDown" aria-hidden="true"></i></a>
+              <a href="https://twitter.com/micaxreyes" target="blank"><i class="fa fa-twitter animated fadeInDown" aria-hidden="true"></i></a>
+              <a href="https://www.youtube.com/playlist?list=PLVlbcvK_HyixvhWn5zSY5l0VuZYTEbIQE" target="blank"><i class="fa fa-youtube animated fadeInDown" aria-hidden="true"></i></a>
+              <a href="https://codepen.io/rookie-cookie/" target="blank"><i class="fa fa-codepen animated fadeInDown" aria-hidden="true"></i></a>
+             </div>
+            </div>
+
+            <div class="col-sm-6"> <!--this will occupy full width of the screen-->
+              <div class="about-learn">
+                <h3>currently learning</h3>
+                <div class="learning">
+                  <img class="language-logo" src="img/html.png" alt="HTML5 logo">
+                  <img class="language-logo" src="img/css.png" alt="CSS3 logo">
+                  <img class="language-logo" src="img/js.png" alt="JavaScript logo">
+                  <img class="language-logo" src="img/jq.png" alt="jQuery logo">
+                  <img class="language-logo" src="img/bs.png" alt="Bootstrap logo">
+                  <img class="language-logo" src="img/wp.png" alt="Wordpress logo">
+                  <img class="language-logo" src="img/nd.png" alt="NodeJS logo">
+                  <img class="language-logo" src="img/ex.png" alt="Express logo">
+                  <img class="language-logo" src="img/mg.png" alt="MongoDB logo">
+                  <img class="language-logo" src="img/gh.png" alt="GitHub logo">
+                </div>
+               </div>
+           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio-section">
+     <div class="container">
+       <div class="row">
+         <div class="portfolio-title">
+           <h1>portfolio</h1>
+           <h5>Here's my learning progress so far...</h5>
+         </div>
+        <hr>
+
+         <div class="col-md-6">
+           <div class="screenshot">
+             <img src="img/screenshots/weather.png" alt="Weather App screenshot">
+             <div class="portfolio-desc">
+              <h3>Local Weather App</h3>
+              <p>A local weather app that uses Javascript, jQuery and the <a href="http://openweathermap.org/API" target="blank">Open Weather API</a>. Features on-click temperature conversion and weather icons that vary depending on the temperature.</p>
+              <a href="https://www.freecodecamp.org/challenges/show-the-local-weather" target="blank"><i class="fa fa-free-code-camp" aria-hidden="true"></i></a>
+              <a href="https://rookie-cookie.github.io/weather-fcc/" target="blank"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+              <a href="https://github.com/rookie-cookie/weather-fcc" target="blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+            </div>
+           </div>
+
+           <div class="screenshot">
+             <img src="img/screenshots/quote.png" alt="Random quote machine screenshot">
+              <div class="portfolio-desc">
+                <h3>Random Quote Machine</h3>
+                <p>An app that generates a random quote and lets the user tweet out the quote. Made possible using the <a href="https://quotesondesign.com/api-v4-0/" target="blank">Quotes on Design API</a>.</p>
+                <a href="https://www.freecodecamp.org/challenges/build-a-random-quote-machine" target="blank"><i class="fa fa-free-code-camp" aria-hidden="true"></i></a>
+                <a href="https://codepen.io/rookie-cookie/full/RKmEaQ/" target="blank"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                <a href="https://codepen.io/rookie-cookie/pen/RKmEaQ" target="blank"><i class="fa fa-codepen" aria-hidden="true"></i></a>
+            </div>
+           </div>
+
+           <div class="screenshot">
+             <img src="img/screenshots/recode1.png" alt="PSD to code screenshot">
+              <div class="portfolio-desc">
+                <h3>PSD Design to Code 1</h3>
+                <p>Converted a PSD design into a responsive html code for practice and learning purposes. Credits to the original web designer of this <a href="https://freebiesbug.com/code-stuff/activebox-free-html-template/" target="blank">template</a>.</p>
+                <a href="https://rookie-cookie.github.io/PSDtoCODE/" target="blank"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                <a href="https://github.com/rookie-cookie/PSDtoCODE" target="blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+              </div>
+           </div>
+
+        </div>
+
+        <div class="col-md-6">
+          <div class="screenshot">
+            <img src="img/screenshots/wiki.png" alt="Wikipedia viewer screenshot">
+             <div class="portfolio-desc">
+               <h3>Wikipedia Viewer</h3>
+               <p>Search wikipedia entries using the search box and see all resulting entries. User can also click on a button to see a random entry. Made possible using <a href="https://www.mediawiki.org/wiki/API:Main_page">Media Wiki API</a>.</p>
+               <a href="https://www.freecodecamp.org/challenges/build-a-wikipedia-viewer" target="blank"><i class="fa fa-free-code-camp" aria-hidden="true"></i></a>
+               <a href="https://codepen.io/rookie-cookie/full/xqppBq/" target="blank"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+               <a href="https://codepen.io/rookie-cookie/pen/xqppBq" target="blank"><i class="fa fa-codepen" aria-hidden="true"></i></a>
+             </div>
+          </div>
+
+          <div class="screenshot">
+            <img src="img/screenshots/todo.png" alt="To do list screenshot">
+             <div class="portfolio-desc">
+               <h3>Simple To Do List</h3>
+               <p>A simple to do list app made using jQuery. User can add to the list and remove previous list. It also displays current day, date and time.</p>
+               <a href="https://codepen.io/rookie-cookie/full/QvrBbv/" target="blank"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+               <a href="https://codepen.io/rookie-cookie/pen/QvrBbv" target="blank"><i class="fa fa-codepen" aria-hidden="true"></i></a>
+             </div>
+            </div>
+
+          <div class="screenshot">
+            <img src="img/screenshots/recode2.png" alt="PSD to code 2 screenshot">
+             <div class="portfolio-desc">
+               <h3>PSD Design to Code 2</h3>
+               <p>Converted a PSD design into a responsive html code for practice and learning purposes. Credits to the original web designer of this <a href="http://themeforces.com/item/arcadia-portfolio-template/" target="blank">template</a>.</p>
+               <a href="https://rookie-cookie.github.io/PSDtoCODE2/" target="blank"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+               <a href="https://github.com/rookie-cookie/PSDtoCODE2" target="blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+             </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+     <div class="container">
+       <div class="row">
+           <div class="col-lg-12 contact-links">
+            <h1>contact</h1>
+            <p>Feel free to reach out <i class="fa fa-smile-o" aria-hidden="true"></i></p>
+            <hr>
+             <a href="mailto:jonamreyes@gmail.com" target="blank"><i class="fa fa-envelope-o animated fadeInDown" aria-hidden="true"></i></a>
+             <a href="https://github.com/rookie-cookie" target="blank"><i class="fa fa-github animated fadeInDown" aria-hidden="true"></i></a>
+             <a href="https://twitter.com/micaxreyes" target="blank"><i class="fa fa-twitter animated fadeInDown" aria-hidden="true"></i></a>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="container">
+      <a href="#"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a>
+      <p>&copy 2017 Jona Reyes</p>
+      <p>View the <a href="#"><strong>GITHUB REPOSITORY</strong></a> for this project</p>
+    </footer>
+
+
+    <!-- jquery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- bootstrap -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- typed -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.6/typed.min.js"></script>
+    <!-- easing -->
+    <script src="js/jquery.easing.min.js"></script>
+
+
+    <!-- custom -->
+    <script type="text/javascript" src="js/portfolio.js"></script>
+  </body>
+</html>

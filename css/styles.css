@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway|Roboto+Slab:400,600');
+
+/*custom css*/
+
+body {
+    width: 100%;
+    /*height: 100%;*/
+    background: #4abdac;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+/*navigation*/
+.navbar{
+  background: #4abdac;
+  font-size: 1.5em;
+  font-family: Raleway, Helvetica, Arial;
+}
+
+.navbar-default .navbar-nav>li>a{
+  color: white;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+.navbar-default .navbar-toggle {
+  border: none;
+}
+
+.navbar-default .navbar-toggle:hover,
+.nav>li:hover, .navbar-default .navbar-nav>li>a:visited,
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+  background-color: #f7b733;
+  color: white;
+}
+
+.navbar-default,
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+  border-color: #4abdac;
+}
+
+.downarrow{color: white;font-size: 2.5em;}
+.downarrow:hover,.downarrow:focus{color: #F5E4A3;}
+section{position: relative;}
+
+/* centered navigation */
+.navlinks{
+  position: relative;
+  margin: 0 auto;
+  display: table;
+}
+.nav-ul{text-align: center;}
+.nav-ul li{display: inline;}
+.nav-ul a{padding: 0 30px;}
+/***/
+
+ /* remove collapsible nav - bootstrap */
+.navbar-collapse.collapse {display: block!important;}
+.navbar-nav>li, .navbar-nav {float: left !important;}
+.navbar-nav.navbar-right:last-child {margin-right: -15px !important;}
+.navbar-right {float: right!important;}
+/***/
+
+/*************************************/
+
+.intro-section {
+    padding: 90px 0;
+    text-align: center;
+    background: #4abdac;
+    color: white;
+}
+
+.intro-section h1{
+  line-height: 1.5em;
+  font-size: 3em;
+  font-family: "Roboto Slab", "Open Sans", Helvetica, sans-serif;
+}
+
+.intro-section h5, .intro-section h6{font-family: Raleway, sans-serif;}
+.colored{color: #F5E4A3;}
+
+/*************************************/
+
+.about-section {
+    padding: 50px 0;
+    text-align: center;
+    background: white;
+}
+
+.about-desc{text-align: right;}
+.about-desc h1{
+  color: #fc4a1a;
+  font-family: 'Roboto Slab', Helvetica, Arial, sans-serif;
+  font-size: 3em;
+  padding-bottom: 10px;
+}
+
+.about-desc h5{
+  font-family: Raleway, Helvetica, Arial, sans-serif;
+  line-height: 1.5em;
+  font-size: 1.5rem;
+}
+
+.about-desc a{
+  text-decoration: none;
+}
+
+.social-icons{
+  text-align: right;
+  font-size: 32px;
+  padding-top: 10px;
+}
+
+.social-icons a{
+  text-decoration: none;
+  color: #555;
+}
+
+.social-icons a:hover{color: #fc4a1a;}
+
+.about-learn{
+  text-align: left;
+  padding: 50px 0;
+}
+
+.about-learn h3{
+  padding-left: 50px;
+  font-family: 'Roboto Slab', Helvetica, Arial, sans-serif;
+  color: #fc4a1a;
+  font-size: 1.5em;
+}
+
+.learning{
+  text-align: center;
+}
+
+.language-logo{
+  height: 100px;
+  padding: 10px;
+}
+
+/*************************************/
+
+.portfolio-section {
+    padding: 50px 0;
+    text-align: center;
+    background: white;
+    min-height: 100vh;
+}
+
+.portfolio-section h1{
+  font-family: 'Roboto Slab', Helvetica, Arial, sans-serif;
+  font-size: 3em;
+  color: #fc4a1a;
+}
+
+.portfolio-section h5{
+  font-family: Raleway, Helvetica, Arial, sans-serif;
+  line-height: 1.5em;
+  font-size: 1.5rem;
+}
+
+hr{
+  padding-top: 30px;
+  border-color: #4abdac;
+}
+
+.screenshot img{
+  width: 450px;
+  padding: 10px;
+}
+
+.portfolio-desc{
+  width: 450px;
+  margin: 0 auto;
+}
+
+.portfolio-desc p{font-family: Raleway, sans-serif;}
+.portfolio-desc h3{font-size: 'Open Sans', sans-serif;}
+.portfolio-desc .fa{
+  font-size: 24px;
+  letter-spacing: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  color: #555;
+}
+
+.portfolio-desc .fa:hover{color:#fc4a1a;}
+
+/*************************************/
+
+.contact-section {
+    padding: 20px 0;
+    text-align: center;
+    background: white;
+    padding-bottom: 50px;
+}
+
+.contact-links h1{
+  letter-spacing: 5px;
+  font-family: 'Roboto Slab', Helvetica, Arial, sans-serif;
+  font-size: 3em;
+  color: #fc4a1a;
+}
+
+.contact-links p{font-family: Raleway, sans-serif; font-size: 20px;}
+
+.contact-links a{
+  font-size: 60px;
+  letter-spacing: 10px;
+  padding: 50px;
+}
+
+/*************************************/
+
+footer{
+  height: 170px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  font-family: Raleway, sans-serif;
+  font-size: 20px;
+}
+
+footer .fa{
+  font-size: 45px;
+  color: white;
+}
+
+footer a{text-decoration: none !important;}

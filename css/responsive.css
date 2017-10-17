@@ -1,0 +1,11 @@
+@media only screen and (max-width: 767px) {
+  .intro-details{
+    position: relative;
+    text-align: left;
+    padding: 50px;
+  }
+
+  .about-desc{text-align: center;}
+  .social-icons{text-align: center;}
+  .about-learn h3{padding-left: 0;text-align: center;}
+}
