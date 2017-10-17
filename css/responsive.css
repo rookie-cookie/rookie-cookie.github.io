@@ -4,8 +4,26 @@
     text-align: left;
     padding: 50px;
   }
-
   .about-desc{text-align: center;}
   .social-icons{text-align: center;}
   .about-learn h3{padding-left: 0;text-align: center;}
+}
+
+@media only screen and (max-device-width: 425px) {
+  .intro-section h1{font-size: 200%;}
+  .screenshot img{width: 300px;}
+  .portfolio-desc{width: 300px;}
+  .contact-links a{
+    font-size: 40px;
+    padding: 20px;
+  }
+  footer{
+    font-size: 15px;
+
+  }
+
+}
+
+@media only screen and (max-device-width: 320px) {
+  .screenshot img{width: 250px;}
 }
