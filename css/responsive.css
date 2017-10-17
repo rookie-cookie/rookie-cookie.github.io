@@ -17,11 +17,7 @@
     font-size: 40px;
     padding: 20px;
   }
-  footer{
-    font-size: 15px;
-
-  }
-
+  footer{font-size: 15px;}
 }
 
 @media only screen and (max-device-width: 320px) {
