@@ -10,7 +10,7 @@ $(function() {
 
 // typed.js
 var typed = new Typed('#typing', {
-  strings: ["thinking", "music", "typography", "puppies", "learning", "korean bbq", "adventure", "milk tea", "problem solving", "doodling", "art", "coffee"],
+  strings: ["thinking", "music", "typography", "puppies", "learning", "korean bbq", "adventure", "milk tea", "problem solving", "doodling", "art", "photography", "coffee"],
   typeSpeed: 50,
   backSpeed: 50,
   loop: true
